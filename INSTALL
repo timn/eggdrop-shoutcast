@@ -1,0 +1,30 @@
+
+Eggdrop Eliza Extension
+==============================================================================
+
+** Requirements
+- Linux or Unix System
+- Eggdrop 1.6.13 or newer
+- Perl 5.6.0 or newer
+- LWP::UserAgent Perl Module
+
+** Installation
+I assume that your system meets the requirements mentioned above. You must
+have a working Eggdrop and access to Perl. Unpack the distribution.
+Edit the file eliza.tcl and edit the lines between ###CONFIGSTART###
+and ###CONFIGEND###. Then add a line like the following to your Eggdrop
+configuration file:
+source "/path/to/script/shout.tcl"
+Mention the full path to the script file. Rehash your Eggdrop and you are
+done.
+
+** Website
+http://www.niemueller.de/software/eggdrop/shout/
+
+
+Tim Niemueller <tim@niemueller.de>
+Aachen, January 26th 2004
+
+
+$Id: INSTALL,v 1.1 2004/01/26 00:38:46 tim Exp $
+
